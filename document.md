@@ -46,7 +46,7 @@
 - 了解Excel的基本操作
 ### 3. 功能模型
 #### 3.1 用例
-![用例](https://raw.githubusercontent.com/keifergu/se-course/master/viso/user-case.png)
+![用例](https://raw.githubusercontent.com/keifergu/se-course/master/viso/user-cases.png)
 
 - 登录 (login)
 - 查看应缴款项 (getItem)
@@ -89,6 +89,7 @@ payr(yes)->re->e
 ```
 
 - 显示用户历史缴款记录
+
 ```flow
 st=>start: 查看历史缴款记录
 op=>operation: 从订单流水中查询
@@ -98,6 +99,7 @@ e=>end
 st->op->s->e
 ```
 - 添加款项
+
 ```flow
 st=>start: 添加款项
 op=>inputoutput: 设置款项名称、金额等
@@ -108,6 +110,7 @@ st->op->add->e
 ```
 
 - 统计用户缴款记录
+
 ```flow
 st=>start: 统计缴款记录
 io=>inputoutput: 选择查询类型

@@ -123,6 +123,9 @@ st->io->r->ch
 ch(yes)->ex
 ch(no)->e
 ```
+### 3.4 数据流图
+![数据关联图](https://raw.githubusercontent.com/keifergu/se-course/master/viso/get-money-info.png)
+
 ## 4. 数据对象模型
 ### 4.1 对象关联图（ERD）
 ![数据关联图](https://raw.githubusercontent.com/keifergu/se-course/master/viso/data-model.png)
